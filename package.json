@@ -1,0 +1,25 @@
+{
+  "name": "lauch-countdown-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i src/tailwind.css -o output/tailwind.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Md-Raihan-Alam/Lauch-Countdown-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Md-Raihan-Alam/Lauch-Countdown-Project/issues"
+  },
+  "homepage": "https://github.com/Md-Raihan-Alam/Lauch-Countdown-Project#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6",
+    "typescript": "^4.7.4"
+  }
+}
