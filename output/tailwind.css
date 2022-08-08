@@ -558,12 +558,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
+.flex {
+  display: flex;
+}
+
+.h-3\/5 {
+  height: 60%;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-2\/5 {
+  height: 40%;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-3\/4 {
@@ -578,16 +590,6 @@ video {
   width: 100%;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
-.w-fit {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.uppercase {
-  text-transform: uppercase;
+.overflow-hidden {
+  overflow: hidden;
 }

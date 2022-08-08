@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./index.html","src/tailwind.css"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        "star":"url('./images/bg-stars.svg')",
+        "hills":"images/pattern-hills.svg",
+      }
+    },
   },
   plugins: [],
 }
