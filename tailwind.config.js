@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage:{
         "star":"url('./images/bg-stars.svg')",
         "hills":"images/pattern-hills.svg",
+      },
+      backgroundColor:{
+        "softRed":"rgba(251,96,135,0.1)",
       }
     },
   },
