@@ -419,7 +419,7 @@ video {
 
 .gradientColor{
   background: rgb(25,26,36);
-  background: linear-gradient(180deg, rgba(25,26,36,1) 50%, rgba(30,31,41,1) 50%);
+  background: linear-gradient(180deg, rgba(25,26,36,1) 50%, rgba(36,37,43,0.9755252442773985) 50%);
 }
 
 *, ::before, ::after {
@@ -648,6 +648,10 @@ video {
   border-style: solid;
 }
 
+.border-none {
+  border-style: none;
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -686,4 +690,18 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-softRed {
+  --tw-text-opacity: 1;
+  color: hsl(345 95% 68% / var(--tw-text-opacity));
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:bg-softRed:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(345 95% 68% / var(--tw-bg-opacity));
 }
