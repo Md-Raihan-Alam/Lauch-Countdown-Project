@@ -422,6 +422,13 @@ video {
   background: linear-gradient(180deg, rgba(25,26,36,1) 50%, rgba(36,37,43,0.9755252442773985) 50%);
 }
 
+.garientTextColor{
+  background-image: linear-gradient(180deg, hsl(345, 95%, 68%) 50%, rgba(251,96,135,0.7) 50%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -571,9 +578,9 @@ video {
   z-index: 30;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mt-2 {
@@ -596,8 +603,8 @@ video {
   height: 100%;
 }
 
-.h-box {
-  height: 150px;
+.h-box3 {
+  height: 70px;
 }
 
 .h-3\/4 {
@@ -616,8 +623,8 @@ video {
   width: 75%;
 }
 
-.w-box {
-  width: 150px;
+.w-box3 {
+  width: 70px;
 }
 
 .flex-col {
@@ -640,29 +647,12 @@ video {
   overflow: hidden;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
-.border-solid {
-  border-style: solid;
-}
-
 .border-none {
   border-style: none;
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .bg-softRedBg {
   background-color: rgba(251,96,135,0.2);
-}
-
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .text-center {
@@ -683,8 +673,28 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-white {
@@ -701,7 +711,32 @@ video {
   cursor: pointer;
 }
 
-.hover\:bg-softRed:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(345 95% 68% / var(--tw-bg-opacity));
+@media (min-width: 500px) {
+  .mobile\:mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
+  .mobile\:h-box2 {
+    height: 100px;
+  }
+
+  .mobile\:w-box2 {
+    width: 100px;
+  }
+}
+
+@media (min-width: 900px) {
+  .tab\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .tab\:h-box {
+    height: 150px;
+  }
+
+  .tab\:w-box {
+    width: 150px;
+  }
 }

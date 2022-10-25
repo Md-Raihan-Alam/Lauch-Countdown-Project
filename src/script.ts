@@ -3,7 +3,7 @@ let instragramIcon=document.querySelector('#instragram') as HTMLElement;
 let pinterestIcon=document.querySelector('#pinterest') as HTMLElement;
 function overColor(e:HTMLElement)
 {
-    console.log("Working");
+    // console.log("Working");
     e.children[0].setAttribute("fill","#fb6087")
 }
 function outColor(e:HTMLElement)

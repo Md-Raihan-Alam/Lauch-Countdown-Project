@@ -29,7 +29,13 @@ module.exports = {
       },
       spacing:{
         "box":"150px",
+        "box2":"100px",
+        "box3":"70px",
       },
+      screens:{
+        "mobile":"500px",
+        "tab":"900px",
+      }
     },
   },
   plugins: [],
