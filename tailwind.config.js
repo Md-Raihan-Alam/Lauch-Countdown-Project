@@ -35,7 +35,8 @@ module.exports = {
       screens:{
         "mobile":"500px",
         "tab":"900px",
-      }
+      },
+      
     },
   },
   plugins: [],
