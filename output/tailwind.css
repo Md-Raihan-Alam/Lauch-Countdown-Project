@@ -455,6 +455,16 @@ video {
   -webkit-text-fill-color: transparent;
 }
 
+.backGroundHills{
+  background-image:url('/images/pattern-hills.svg');
+  background-size:cover;
+}
+
+.backgroundStars{
+  background-image:url('/images/bg-stars.svg');
+  background-size:cover;
+}
+
 .customBoxShadow{
   box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.75);
@@ -691,8 +701,8 @@ video {
   border-style: none;
 }
 
-.bg-softRedBg {
-  background-color: rgba(251,96,135,0.2);
+.bg-darkBG {
+  background-color: rgba(33,29,43,0.4);
 }
 
 .text-center {

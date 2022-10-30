@@ -18,7 +18,8 @@ module.exports = {
         "grayishBLueBg":"rgba(132,134,169,0.2)",
         "darkDesaturatedBlueBg":"rgba(52,54,80,0.2)",
         "veryDarkBlueBg":"rgba(30,31,41,0.2)",
-        "veryDarkBlue":"rgba(25,26,36,0.7)"
+        "veryDarkBlue":"rgba(25,26,36,0.7)",
+        "darkBG":"rgba(33,29,43,0.4)",
       },
       colors:{
         "darkDesaturatedBlue":"hsl(236, 21%, 26%)",
