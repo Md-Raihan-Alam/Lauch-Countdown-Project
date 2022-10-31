@@ -456,12 +456,12 @@ video {
 }
 
 .backGroundHills{
-  background-image:url('/images/pattern-hills.svg');
+  background-image:url('../images/pattern-hills.svg');
   background-size:cover;
 }
 
 .backgroundStars{
-  background-image:url('/images/bg-stars.svg');
+  background-image:url('../images/bg-stars.svg');
   background-size:cover;
 }
 
@@ -629,8 +629,8 @@ video {
   margin-right: 0.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mr-3 {
@@ -702,11 +702,15 @@ video {
 }
 
 .bg-darkBG {
-  background-color: rgba(33,29,43,0.4);
+  background-color: rgba(33, 29, 43, 0.2);
 }
 
 .text-center {
   text-align: center;
+}
+
+.font-Red_Hat {
+  font-family: Alegreya Sans SC, sans-serif;
 }
 
 .text-3xl {
@@ -748,6 +752,19 @@ video {
 .text-softRed {
   --tw-text-opacity: 1;
   color: hsl(345 95% 68% / var(--tw-text-opacity));
+}
+
+.text-strangeWhite {
+  --tw-text-opacity: 1;
+  color: rgb(135 134 163 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: 'Alegreya Sans SC', sans-serif;
+
+  src: url("https://fonts.google.com/specimen/Red+Hat+Text");
+
+  font-weight: 700;
 }
 
 .hover\:cursor-pointer:hover {

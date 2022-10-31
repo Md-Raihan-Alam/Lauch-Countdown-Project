@@ -19,7 +19,7 @@ module.exports = {
         "darkDesaturatedBlueBg":"rgba(52,54,80,0.2)",
         "veryDarkBlueBg":"rgba(30,31,41,0.2)",
         "veryDarkBlue":"rgba(25,26,36,0.7)",
-        "darkBG":"rgba(33,29,43,0.4)",
+        "darkBG":"rgba(33, 29, 43, 0.2)",
       },
       colors:{
         "darkDesaturatedBlue":"hsl(236, 21%, 26%)",
@@ -27,6 +27,7 @@ module.exports = {
         "verDark":"hsl(234, 17%, 12%)",
         "grayishBlue":"hsl(237, 18%, 59%)",
         "softRed":"hsl(345, 95%, 68%)",
+        "strangeWhite":"rgb(135, 134, 163)",
       },
       spacing:{
         "box":"150px",
@@ -37,7 +38,9 @@ module.exports = {
         "mobile":"500px",
         "tab":"900px",
       },
-      
+      fontFamily:{
+        "Red_Hat":['Alegreya Sans SC', 'sans-serif'],
+      },
     },
   },
   plugins: [],
